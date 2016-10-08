@@ -16,7 +16,7 @@ namespace BaiduComicConsoleApplication
                 Console.WriteLine("lost args");
             string rootpath = args[0];
             List<string> chapterId = new List<string>();
-            if (args.Length == 2)
+            if (args.Length < 2)
                 Console.WriteLine("no chapter ids");
             for (int i = 1; i < args.Length; i++)
             {
