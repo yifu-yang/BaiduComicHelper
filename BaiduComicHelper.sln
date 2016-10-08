@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiduComicHelperLibrary", "BaiduComicHelperLibrary\BaiduComicHelperLibrary.csproj", "{B65E53BB-20EC-4857-8348-0C82C7FE1C19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComicDownloadUnitTest", "ComicDownloadUnitTest\ComicDownloadUnitTest.csproj", "{DE30501F-3CC6-4014-AC24-1F18402C0CB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiduComicConsoleApplication", "BaiduComicConsoleApplication\BaiduComicConsoleApplication.csproj", "{BD2764F7-9BF1-40DC-9717-E1F3DDDC7A15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B65E53BB-20EC-4857-8348-0C82C7FE1C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B65E53BB-20EC-4857-8348-0C82C7FE1C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B65E53BB-20EC-4857-8348-0C82C7FE1C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B65E53BB-20EC-4857-8348-0C82C7FE1C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE30501F-3CC6-4014-AC24-1F18402C0CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE30501F-3CC6-4014-AC24-1F18402C0CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE30501F-3CC6-4014-AC24-1F18402C0CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE30501F-3CC6-4014-AC24-1F18402C0CB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD2764F7-9BF1-40DC-9717-E1F3DDDC7A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD2764F7-9BF1-40DC-9717-E1F3DDDC7A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD2764F7-9BF1-40DC-9717-E1F3DDDC7A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD2764F7-9BF1-40DC-9717-E1F3DDDC7A15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

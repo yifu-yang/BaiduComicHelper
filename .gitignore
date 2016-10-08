@@ -3,3 +3,8 @@
 ################################################################################
 
 /BaiduComicConsoleApplication/bin/Debug
+/BaiduComicConsoleApplication/obj/Debug
+/BaiduComicHelperLibrary/bin/Debug
+/BaiduComicHelperLibrary/obj/Debug
+/ComicDownloadUnitTest/bin/Debug
+/ComicDownloadUnitTest/obj/Debug
