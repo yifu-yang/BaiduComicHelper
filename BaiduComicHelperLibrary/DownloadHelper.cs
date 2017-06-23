@@ -85,7 +85,7 @@ namespace BaiduComicHelperLibrary
             List<string> Result = new List<string>();
             string url = BuildUrl(pageId, pageNum, isLZ);
             var htmlTxt = GetPages(url);
-            string regex = "http://hiphotos\\.baidu\\.com/[^/]+/pic/item/[^\\.]+\\.jpg|http://imgsrc\\.baidu\\.com/forum/w%3D580/sign=[^/]+/[^\\.]+\\.jpg";
+            string regex = "http://hiphotos\\.baidu\\.com/[^/]+/pic/item/[^\\.]+\\.jpg|http://imgsrc\\.baidu\\.com/forum/w%3D580/sign=[^/]+/[^\\.]+\\.jpg|https://imgsa.baidu.com/kf3700/pic/item/\\w+.jpg";
             var matches = Regex.Matches(htmlTxt, regex);
             foreach (Match match in matches)
             {
